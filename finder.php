@@ -1,5 +1,4 @@
 <?php
-
 	scanner("./theme");
 	function scanner($dir){
 		$files = scandir($dir);
